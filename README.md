@@ -5,8 +5,11 @@ and then use the data acquired to visualize graphs made with Graph.js
 <img src="https://github.com/user-attachments/assets/b8c1bb1c-2938-433f-bea0-36c088c7f5fd" width="600" >
 
 ## Bootstrapped with Create React App
-### `npm start`
 
+### `node server.js` on backend folder
+To start the server in [http://localhost:5000](http://localhost:5000)
+
+### `npm start` on main folder
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
