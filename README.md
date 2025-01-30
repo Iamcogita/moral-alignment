@@ -2,7 +2,8 @@
 This project's goal is to create a comprehensive questionnaire about Moral dilemmas,
 and then use the data acquired to visualize graphs made with Graph.js
 
-<img src="https://github.com/user-attachments/assets/7d3bb71a-f8d4-4730-9403-223effc3f799" width="400" > <img src="https://github.com/user-attachments/assets/69887a29-1242-4897-91ec-5b1855951593" width="600" >
+<img src="https://github.com/user-attachments/assets/69887a29-1242-4897-91ec-5b1855951593" width="520">
+<img src="https://github.com/user-attachments/assets/7d3bb71a-f8d4-4730-9403-223effc3f799" width="350" > 
 
 ## Bootstrapped with Create React App
 ### `node server.js` on backend folder
