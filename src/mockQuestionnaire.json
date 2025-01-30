@@ -2,12 +2,92 @@
     {
       "question_id": 1,
       "question": "You see a person in pain laying on the sidewalk",
+      "x": "always walk away",
+      "x_weight": [0,1,0,2,3],
+      "y": "always offer help",
+      "y_weight": [2,2,3,0,0],
       "response": 6
     },
     {
       "question_id": 2,
       "question": "A friend asks you to lie to protect them",
+      "x": "always lie or keep secrets",
+      "x_weight": [1,0,2,1,0],
+      "y": "always tell the truth",
+      "y_weight": [0,4,0,0,1],
+      "response": 4
+    },
+    {
+      "question_id": 3,
+      "question": "A group of people are visibly drunk",
+      "x": "let them have fun",
+      "x_weight": [6,0,2,1,0],
+      "y": "wish them a strong hangover",
+      "y_weight": [0,4,0,0,1],
       "response": 2
+    },
+    {
+      "question_id": 4,
+      "question": "Someone with a handicap is trying to tie their shoe, but failing in a humorous way",
+      "x": "always try to help and dismiss people laughing",
+      "x_weight": [2,2,3,0,0],
+      "y": "never try to help and laugh with others",
+      "y_weight": [0,1,0,2,3],
+      "response": 4
+    },
+    {
+      "question_id": 5,
+      "question": "A friend asks you if they can attain their delusional dreams",
+      "x": "be brutal in your response if too delusional",
+      "x_weight": [0,4,0,3,0],
+      "y": "try to guide them towards achieving any goals",
+      "y_weight": [1,0,4,0,2],
+      "response": 1
+    },
+    {
+      "question_id": 6,
+      "question": "A trembling stranger asks if they can hide in your car for a while",
+      "x": "always let them in to protect them",
+      "x_weight": [5,2,3,1,0],
+      "y": "always refuse to help to protect yourself",
+      "y_weight": [0,0,0,6,6],
+      "response": 6
+    },
+    {
+      "question_id": 7,
+      "question": "A family member is being manipulated by someone for personal gain",
+      "x": "they should know better, it's their decision",
+      "x_weight": [2,2,3,0,0],
+      "y": "if they are in danger it's my duty to help them",
+      "y_weight": [0,1,0,2,3],
+      "response": 2
+    },
+    {
+      "question_id": 8,
+      "question": "You see a child alone, wide eyed and looking around, for more than 5 minutes",
+      "x": "talk to the child before someone else takes them",
+      "x_weight": [1,1,3,0,0],
+      "y": "keep and eye on the child but don't engage",
+      "y_weight": [0,1,0,6,1],
+      "response": 3
+    },
+    {
+      "question_id": 9,
+      "question": "Someone you dislike asks for a small favor",
+      "x": "I will do it to prove i'm a bigger than that",
+      "x_weight": [2,1,3,0,1],
+      "y": "they can ask someone else, I would never help that person",
+      "y_weight": [0,2,0,4,3],
+      "response": 6
+    },
+    {
+      "question_id": 10,
+      "question": "A well known politician or celebrity has a meltdown near you",
+      "x": "record it and keep your distance",
+      "x_weight": [0,2,0,4,3],
+      "y": "call for help and approach carefully",
+      "y_weight": [2,1,3,0,1],
+      "response": 5
     }
   ]
   
