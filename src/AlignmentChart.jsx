@@ -54,9 +54,12 @@ const AlignmentChart = () => {
   }, []);
 
   return (
+    <>
+    <h1> YOUR RESULT </h1>
     <div className='radar'>
       {data ? <Radar data={data} /> : <p> Loading chart... </p>}
     </div>
+    </>
   );
 };
 
