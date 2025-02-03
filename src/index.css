@@ -17,19 +17,14 @@ body {
 }
 
 div.radar{
-  margin-top: 10px;
   padding-left: 2%;
   padding-right: 2%;
   border-radius: 20px;
   background-color: white;
-  font-size: 40px ;
-  min-width: 500px;
+  min-width: 600px;
   max-height: 800px;
   box-shadow: 0px 10px 5px rgba(77,77,77,0.7);
-}
-
-div{
-  margin-top: 2px;
+  cursor: pointer;
 }
 
 .landing-page div{
@@ -39,6 +34,10 @@ div{
   background-color: white;
   color: rgb(49, 78, 131);
   width: 1000px;
+}
+
+label input{
+  cursor: pointer;
 }
 
 span{
@@ -52,4 +51,5 @@ span{
   background-color: rgb(52, 54, 179);
   color: white;
   align-items: center;
+  cursor: pointer;
 }
